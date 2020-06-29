@@ -2,13 +2,12 @@
 <html>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <style>
 @font-face{font-family:'rick'; src: url('get_schwifty.ttf')format('truetype');}
 </style>
-<script>
-document.cookie = "pontos=1";
-</script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="cookie.umd.min.js"></script>
 <body>
 
 <img class="w3-opacity-max w3-grayscale-min" src="https://images6.alphacoders.com/909/thumb-1920-909641.png" />
@@ -22,6 +21,8 @@ document.cookie = "pontos=1";
 	</form>
   </div>
 </div>
-
+<script>
+cookie.set('pontos', '0');
+</script>
 </body>
 </html>

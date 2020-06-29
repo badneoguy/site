@@ -5,11 +5,8 @@
 <style>
 @font-face{font-family:'rick'; src: url('get_schwifty.ttf')format('truetype');}
 </style>
-<script>
-var placar = document.cookie;
-alert(placar);
-</script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="cookie.umd.min.js"></script>
 <body>
 
 <img class="w3-opacity-max w3-grayscale-min" src="https://images6.alphacoders.com/909/thumb-1920-909641.png" />
@@ -22,6 +19,9 @@ alert(placar);
 	</form>
   </div>
 </div>
-
+<script>
+var placar = cookie.get('pontos');
+alert(placar);
+</script>
 </body>
 </html>
