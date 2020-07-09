@@ -21,11 +21,11 @@
 </div>
 <script>
 var pontos = parseInt(cookie.get('pontos'));
-if(pontos < 9){document.getElementById("resultado").innerHTML = "<b>Conhecedor(a) da série: </b>  Reveja a série, você apenas conhece os personagens principais por estar na boca do povo e nas camisetas nerds. Dê uma chance a série! #ficaadica";
+if(pontos < 9){document.getElementById("resultado").innerHTML = "<b>"+pontos+" / 32 - Conhecedor(a) da série: </b>  Reveja a série, você apenas conhece os personagens principais por estar na boca do povo e nas camisetas nerds. Dê uma chance a série! #ficaadica";
 }
-else if(pontos > 8 && pontos < 17){document.getElementById("resultado").innerHTML = "<b> Reprisador(a) da série: </b> Você já viu algumas vezes, mas sem prestar tanto a atenção devida que a série demanda. Mas você está se adaptando a esse universo, não fique chateado. Mais algumas maratonadas e anotações vão te ajudar. #maratonarmilvezes";
+else if(pontos > 8 && pontos < 17){document.getElementById("resultado").innerHTML = "<b>" +pontos+" / 32 - Reprisador(a) da série: </b> Você já viu algumas vezes, mas sem prestar tanto a atenção devida que a série demanda. Mas você está se adaptando a esse universo, não fique chateado. Mais algumas maratonadas e anotações vão te ajudar. #maratonarmilvezes";
 }
-else{document.getElementById("resultado").innerHTML = "<b> Viciadíssimo(a) na série: </b> Você está em outro patamar. Conhece todos os personagens que são para poucos. Sem palavras! #vicioRickandMorty";}
+else{document.getElementById("resultado").innerHTML = "<b>" +pontos+" / 32 - Viciadíssimo(a) na série: </b> Você está em outro patamar. Conhece todos os personagens que são para poucos. Sem palavras! #vicioRickandMorty";}
 
 </script>
 </body>
